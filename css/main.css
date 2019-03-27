@@ -1,0 +1,203 @@
+input:not([type=button]):not([type=submit]):not([type=checkbox]), select, textarea { 
+    background-color: #050505;
+    border: 1px solid #333;
+    color: #efefef;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.input {
+    width: 5rem;
+}
+
+textarea {
+    width: 400px;
+    height: 90px;
+}
+    
+h2 {
+    background-color: #035;
+    padding: 5px 15px;
+    margin: 0px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #000 inset;
+}
+
+.pane h3, #rules-back {
+    font-weight: bold; 
+    margin: 0px;
+    margin-right: 10px;
+    background-color: #0f1537;
+	padding: 5px;
+	box-shadow: 0px 0px 10px #000 inset;
+	width: 142px;
+	text-align: center;
+}
+
+th {
+	padding: 7px;	
+	border-right: 1px solid #111;
+	background-color: #3e3e3e;
+}
+
+#rules-back {
+	color: #efefef;
+	text-decoration: none;
+	border: 1px solid #1c1b1b;
+	display: block;
+	text-align: left;
+	width: 88px;
+	padding-left: 20px;
+}
+
+#rules-back:hover {
+	background-color: #1f2577;
+}
+
+#rules-back i {
+	font-size: 17px;
+	position: relative;
+	top: 3px;
+	margin-right: 10px;
+}
+
+.row {
+    background-color: #111; 
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #1c1b1b;
+}
+
+.row > * {
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.mode > a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.mode a.sel {
+    color: #7af;
+}
+
+.mode > a:hover {
+    color: #0af;
+}
+
+.mode > a > span {
+    position: relative;
+    padding-left: 3px;
+    top: -7px;    
+}
+
+#menu a { 
+    font-size: 1.3em;
+}
+
+#menu i {
+    font-size: 32px;
+}
+
+#menu a.sel {
+    color: #fc7;
+}
+
+#menu a:hover { 
+    color: #fc0;
+}
+        
+.terrain-sel img, .fg-sel img { 
+    margin-right: 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.terrain-sel img.sel, .fg-sel img.sel {
+    box-shadow: 0px 0px 6px 3px #07a;
+    border: 1px solid #fff;
+}
+   
+.nosel img.sel {
+    box-shadow: none;
+}
+
+    
+.terrain-sel img:hover, .fg-sel img:hover {
+    box-shadow: 0px 0px 10px #07a;
+}
+
+.terrain-sel img.sel {
+	border: 2px solid #fff;
+}
+
+    
+.fg-sel.nosel img.sel {
+	border: 1px solid #000;
+}
+
+.terrain-sel img, .terrain-sel.nosel img.sel {
+	border: 2px solid #000;
+}
+
+.terrain-sel.nosel img:hover { 
+	border: 2px solid #fff;
+}
+
+.fg-sel.nosel img:hover {
+	border: 1px solid #fff;
+}
+    
+.switch-button {
+    font-weight: bold;
+    padding: 3px;
+}
+
+.switch-button.sel {
+    background-color: #333;
+    color: #efefef;
+}
+
+td.darken {
+    background-color: #111 !important;
+}
+
+.delete-button {
+	background-color: #983d3d;
+	font-weight: bold;
+	box-shadow: 0px 0px 10px #000 inset;
+	border: 2px solid #000;
+	cursor: pointer;
+}
+
+.delete-button:hover {
+	box-shadow: 0px 0px 10px #000 inset, 0px 0px 10px #f00;
+}
+
+#top-message, #bottom-message {
+    background-color: #070;
+    border: 1px solid #afa;
+    padding: 7px;
+    color: #efefef;
+    font-size: 1.5em;
+}
+
+#controls-wrapper {
+    position: relative;
+}
+
+#controls {
+    background-color: #000;
+    display: inline-block;
+    box-shadow: 0px 0px 10px #000;
+    background-color: #000;
+    z-index: 10;
+}
+    
+#add-img-preview {
+	padding-top: 5px;
+}
+

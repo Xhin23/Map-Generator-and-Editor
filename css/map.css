@@ -1,0 +1,37 @@
+.tile { border-right: 1px solid #000; border-bottom: 1px solid #000; position: relative; } 
+body { background-color: #000000; color: #efefef; }
+td { border: 0px; }
+table { border-spacing: 0px; background-color: #000; }
+
+#interface > div { display: inline-block; margin-right: 10px; vertical-align: top; }
+
+td { 
+    background-color: #111;
+    padding: 5px 10px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+td a {
+    padding: 5px;
+    text-decoration: none;
+    background-color: #222;
+    border: 1px solid #444;
+    color: #efefef;
+}
+
+td a:hover {
+    background-color: #035;
+}
+
+.map { background-color: none; }
+
+.map td { background-color: none; padding: 0px; }
+
+#help a {
+	padding: 7px 25px;
+	text-decoration: underline;
+	margin: 0px 6px;
+	display: inline-block;
+	margin-right: 10px;
+}

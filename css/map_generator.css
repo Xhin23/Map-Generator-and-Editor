@@ -1,0 +1,90 @@
+#basic-settings, #advanced-settings {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#submit-wrapper {
+    background-color: #111;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #000 inset;
+    border: 1px solid #444;
+}
+
+#submit-wrapper input {
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+label { display: inline-block; padding: 8px; cursor: pointer; background-color: #0b0b0b; border: 1px solid #222; }
+
+label span { margin-left: 10px; }
+
+label.sel {
+    background-color: #035;
+}
+
+.toggle-down { 
+    padding: 3px 7px; 
+    font-size: 1.4em;
+}
+
+.help-tile img {
+    width: 20px !important;
+    height: 20px !important;   
+}
+
+#toggle-sculpt {
+    border: 0px;
+    display: block;
+    box-shadow: 0px 0px 10px #000 inset;
+    padding: 5px;
+    padding-left: 7px;
+    margin-left: -8px;
+    background-color: #262a26;
+}
+
+#toggle-sculpt:hover {
+    background-color: #035;
+}
+
+.sculpt td {
+    background-color: #161a16;
+}
+
+.controls input, .submit { padding: 10px; font-size: 1.3em; }
+
+.rand-field, .stop-random, #sculpt-dist-button {
+    padding: 3px;
+    font-size: 1.5em;
+}
+
+#sculpt-dist-button {
+    margin-left: 9px;
+    padding: 0px;
+    position: relative;
+    top: 2px;
+}
+
+.stop-random {
+    padding: 4px 7px;
+    font-weight: normal !important;
+}
+
+#save {
+    padding: 10px;
+    margin-left: 100px;
+    border: 3px dashed #555;
+}
+
+#save input {
+    font-size: 1.5em;
+    padding: 10px 50px;
+}
+
+#save-form input {
+    width: initial !important;
+}
