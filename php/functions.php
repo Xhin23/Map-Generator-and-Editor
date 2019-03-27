@@ -1,51 +1,5 @@
 <?php
 
-// TODO: remove debugging tools
-
-function d($backticks=false)
-{   
-    ZXC::CONF('debug_all',true);
-    if ($backticks)
-    {
-        ZXC::CONF('debug_backticks',true);
-    }
-}
-
-function ud()
-{
-    ZXC::CONF('debug_all',false);
-}
-
-function flow()
-{
-    $args = func_get_args();
-    $i = 1;
-    $imax = count($args);
-    echo '<pre>';
-    foreach($args AS $arg)
-    {
-        if (is_array($arg) || is_object($arg))
-        {
-            print_r($arg);
-        }
-        else 
-        {
-            echo $arg;
-        }
-        
-        if ($i != $imax)
-        {
-            echo ' -- ';
-        }
-        $i++;
-    }
-    echo '</pre>';
-}
-
-function print_x($x) { echo '<pre>'; print_r($x); echo '</pre>'; }
-
-// --
-
 function redir_to($url)
 {
     ?><script type="text/JavaScript">window.location.href = '<?=$url?>';</script><?php
