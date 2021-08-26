@@ -3,15 +3,15 @@ This project allows you to generate a variety of tile-based maps randomly, and t
 
 You can generate your own maps here:
 
-http://gtx0.com/map/
+http://projects.gtx0.com/map/
 
 Or view a pre-generated map (free to edit) here:
 
-http://gtx0.com/map/demo
+http://projects.gtx0.com/map/demo
 
 There is also extensive documentation available here:
 
-http://gtx0.com/j/mapgame/home
+http://docs.gtx0.com/mapgame
 
 -=-=-  Map Generation Features include -=-=-
 
