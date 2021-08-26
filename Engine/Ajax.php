@@ -18,7 +18,7 @@ Class Engine_Ajax
     
     public function do_changes($data)
     {
-        return $this->engine_changes->$data['func']($data);
+        return $this->engine_changes->{$data['func']}($data);
     }
     
     public function do_publish($data)
