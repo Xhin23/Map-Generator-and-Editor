@@ -128,8 +128,8 @@ var timer = {
         		for (var i in data)
         		{
         			client.render(data[i]);
+				_shareid = data[i].shareid;
         		}
-        		_shareid = data[i].shareid;
         	}
             timer.start();
         });
